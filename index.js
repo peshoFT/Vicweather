@@ -19,7 +19,7 @@ const values = [
 
 const search = (query) => {
   fetch(
-    `https://api.weatherapi.com/v1/current.json?key=2c1686eb401344239a0130331221901&q=${query}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=3d1076deab3b47eda55152122221901&q=${query}&aqi=no`
   )
     .then((res) => {
       input.value = "";
